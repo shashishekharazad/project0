@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <title>Contact us</title>
+	    <style type="text/css">
+	    	body{
+				margin: 0;
+				padding: 0;
+				line-height: 1.5em;
+			}
+
+			#header{
+			background: black;
+			font-family: arial;
+			height: 80px;
+
+			}
+
+			#footer{
+				clear: left;
+				width: 100%;
+				background:black;
+				color: #FFF;
+				font-family: arial;
+				text-align: center;
+				padding: 4px;
+			}
+
+
+			
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				background-color: #000;
+			}
+			
+			li {
+				float: left;
+				border-right:1px solid #bbb;
+			}
+			
+			li:last-child {
+				border-right: none;
+			}
+
+			li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+			
+			li a:hover:not(.active) {
+				background-color: 	#808080;
+			}
+			
+			.active {
+				background-color: #0099ff;
+			}	
+			
+	    </style>
+    </head>
+
+    <body>
+        <div id="container">
+			<div id="header">
+				<ul style="display: inline;">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="news.html">News</a></li>
+					<li><a class="active" href="contact.html">Contact</a></li>		  
+				</ul>
+			</div>
+
+
+			<div id="footer">Home | About | News | Contact</div>	
+		</div>
+    </body>
+</html>
+

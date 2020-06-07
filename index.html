@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <title>Welcome</title>
+	    <style type="text/css">
+	    	body{
+				margin: 0;
+				padding: 0;
+				line-height: 1.5em;
+			}
+
+			#header{
+				background: black;
+				font-family: arial;
+				height: 80px;
+
+			}
+			#heading{
+				text-align: center;
+				text-decoration: 
+				font-family: arial;
+				height: 60px;
+			}
+			#contentwrapper{
+			float: left;
+			width: 100%;
+			}
+			#contentcolumn{
+				margin: 0 230px 0 230px;
+			}
+			#leftcolumn{
+				float: left;
+				width: 230px;
+				margin-left: -100%;
+				background:#24c8ff;
+			}
+			#rightcolumn{
+				float: left;
+				width: 230px;
+				margin-left: -230px;
+				background:#FFFB00;
+			}
+			.innertext{
+				margin: 20px;
+				font-family: arial;
+				color: #5e5e5e;
+			}
+			#footer{
+				clear: left;
+				width: 100%;
+				background:black;
+				color: #FFF;
+				font-family: arial;
+				text-align: center;
+				padding: 4px;
+			}
+			
+			/* ### Navigation bar ###*/
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				background-color: #000;
+			}
+			
+			li {
+				float: left;
+				border-right:1px solid #bbb;
+			}
+			
+			li:last-child {
+				border-right: none;
+			}
+
+			li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+			
+			li a:hover:not(.active) {
+				background-color: 	#808080;
+			}
+			
+			.active {
+				background-color: #0099ff;
+			}	
+
+				/* ###### Responsive layout CSS ###### */
+		
+		@media (max-width: 840px){ /* Drop Right Column Down */
+		
+		#leftcolumn {
+				margin-left: -100%;
+			}
+			
+		#rightcolumn {
+				float: none;
+				width: 100%;
+				margin-left: 0;
+				clear: both;
+			}
+			
+		#contentcolumn {
+				margin-right: 0; /*Set margin to LeftColumnWidth*/
+			}
+		
+		}
+		
+		@media (max-width: 600px){ /* Drop Left Column Down */
+		
+			#leftcolumn {
+				float: none;
+				width: 100%;
+				clear: both;
+				margin-left: 0;
+			}
+			
+			#contentcolumn {
+				margin-left: 0;
+			}
+		
+		}
+			
+	    </style>
+    </head>
+
+    <body>
+        <div id="container">
+			<div id="header">
+				
+					<nav>
+						<ul style="display: inline;">
+							
+							<li><a href="index.html" class="active">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="news.html">News</a></li>
+							<li><a href="Contact.html">Contact</a></li>		  
+						</ul>
+					</nav>
+			</div>
+			<div id="contentwrapper">
+
+				<div id="heading">
+					<p>Learning Digital</p>
+				</div>
+			</div>
+
+			<div id="contentwrapper">
+				<div id="contentcolumn">
+					<div class="innertext">
+						<p>
+							<h4>ABOUT BOARD OF TECHNICAL EDUCATION UTTAR PRADESH</h4>
+
+							State Board Of Technical Education and Training was set up in the state in May,1958. The Board conducted its first examination in 1960,for courses of diploma level and also for Draughtsman Certificate Course. The name of the state Board was changed to Board Of Technical Education in 1962. In the same Year, the U.P. Pravidhic Shiksha Adhiniyam - 1962 was enacted awarding the Board statutory status. In the year 1962, year of its inception, the Board held the examination of about 2500 students, in three major disciplines of Civil, Electrical and Mechanical Engineering at 25 different Centers/Institutions. It has a chairman , vice-chairman and 40 members ,named by the state government .Secretary ,Board of Technical Education ,U.P. is ex-officio member secretary of the Board.The curriculum prepared by other institutions was adopted by the Board, till 1980 but thereafter the curriculum and syllabi were developed and revised, every five years at the Board level through its Curriculum development cell. The curriculum development work has been entrusted to I.R.D.T. kanpur . The Board now examine and approve the syllabus developed by IRDT, Kanpur and prescribe it for institutions affiliated to Board of Technical Education, U.P. About 1,05,000 students in the 60 different disciplines of one year, two year, three year and four year durations are being examined at present, in the institutions, affiliated to the Board. The Board of has been constituted under U.P. Pravidhic Shiksha Adhiniyam - 1962. It has a Chairman and a Vice-Chairman and, 40 memebers nominated by the state Government. Secretary ,Board Of Technical Education is ex-officio member secretary of the Board.
+
+						</p>
+					</div>
+				</div>	
+			</div>
+
+				<div id="contentcolumn">
+					<div class="innertext">
+						
+					</div>
+				</div>	
+			
+
+
+				<div id="contentcolumn">
+					<div class="innertext">
+
+						<h3>Important Links</h3>
+						<a href="http://bteup.ac.in/webapp/defaultnew.aspx#">LOGIN</a>
+						<a href="http://www.bteup.ac.in">BTEUP Lucknow</a><br>
+						<a href="http://www.jeecup.org/">Joint Entrance Examination Cell, Uttar Pradesh, Lucknow</a>
+						
+					</div>
+				</div>	
+
+			<div id="footer">Home | About | News | Contact</div>
+		</div>
+    </body>
+</html>
+
